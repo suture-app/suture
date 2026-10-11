@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://suture-app.github.io/suture/sitemap.xml
