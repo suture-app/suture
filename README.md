@@ -11,7 +11,7 @@ Suture is a Windows 11 PC check-up. Smart Scan reads your PC locally and explain
 
 **Website:** https://suture-app.github.io/suture/
 **Promo (15 s):** https://suture-app.github.io/suture/promo.mp4
-**Pricing:** Suture Pro from EUR 39, one payment, with a 5-day trial
+**Pricing:** Suture Pro from EUR 29, one payment, with a 5-day trial
 **Support:** suturesupport@gmail.com
 
 This repository hosts the product website. Suture itself is closed-source Windows software.
