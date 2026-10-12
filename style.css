@@ -141,10 +141,18 @@ caption{text-align:left;font-weight:700;padding:.7rem .9rem;caption-side:top}
 }
 .price{display:grid;gap:1.2rem;margin:1rem 0 1.4rem}
 @media (min-width:42rem){.price{grid-template-columns:1fr 1fr}}
+@media (min-width:60rem){.price{grid-template-columns:repeat(3,1fr)}}
 .plan{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--teal);border-radius:8px;padding:1.2rem 1.3rem}
 .plan h3{margin-bottom:.2rem}
 .plan .amt{font:700 2.4rem/1.1 var(--serif);margin:0}
 .plan p{margin:.3rem 0}
+.plan{position:relative;display:flex;flex-direction:column}
+.plan .per{font-weight:600;color:var(--accent)}
+.plan .inc{margin:.7rem 0 0;padding-left:1.1rem}
+.plan .inc li{margin:.25rem 0}
+.plan.best{border:2px solid var(--accent);border-top:6px solid var(--accent);box-shadow:0 6px 20px rgba(11,111,106,.15)}
+.plan .tag{position:absolute;top:-.85rem;right:1rem;margin:0;background:var(--accent);color:#fff;font:700 .78rem var(--sans);letter-spacing:.04em;text-transform:uppercase;padding:.2rem .6rem;border-radius:4px}
+.price-note{margin:-.4rem 0 1.2rem}
 .facts{padding-left:1.2rem;max-width:65ch}
 details.q{border-bottom:1px solid var(--line)}
 details.q summary{cursor:pointer;font-weight:700;padding:.85rem 0;list-style-position:outside;margin-left:1.1rem}
