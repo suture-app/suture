@@ -8,10 +8,11 @@ Suture is a Windows 11 PC check-up. Smart Scan reads your PC locally and explain
 - Free up disk space, tame startup apps, check Defender and backups
 - Every change is previewed first; most undo in one click
 - Not an antivirus, and no speed or security promises
+- Insights (Pro only): What changed?, BitLocker key check, Disk health, Update errors, Windows surprises, Open doors and Health report
 
 **Website:** https://suture-app.github.io/suture/
 **Promo (15 s):** https://suture-app.github.io/suture/promo.mp4
-**Pricing:** Suture Pro from EUR 29, one payment, with a 5-day trial
+**Pricing:** Suture Pro from EUR 29, one payment, with a trial of 5 days of use (Insights is not part of the trial)
 **Support:** suturesupport@gmail.com
 
 This repository hosts the product website. Suture itself is closed-source Windows software.
